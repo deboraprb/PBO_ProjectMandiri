@@ -1,7 +1,7 @@
 from game_object import GameObject
 
 class PlayerCharacter(GameObject):
-    SPEED = 10
+    SPEED = 3
 
     def move(self, direction, max_height):
         if direction > 0:
